@@ -1,10 +1,14 @@
-# Title (replace with your title)
+# REGEX Tutorial
 
-Introductory paragraph (replace this with your text)
+Regex, or regular expressions, are collections of characters that produce text search patterns. Used most frequently in word processors, text editors, and search engines. You may find a thorough description of a specific regex, one that looks for hexadecimals, here. A letter-and-whole-number value scheme is used in hexadecimals. Hex can be difficult to find because they frequently start with a # and have different numbers of characters.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+The REGEX we will be discussing is a Matching Email expression. We will deconstruct this following statement : /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/.  
+
+To ensure that a user inputs an email address that starts with an arbitrary amount of characters before the @ symbol, followed by a domain, each element of this regex has a specific duty.
+
+We will identify the Anchors, Quantifiers,The OR Operator, Charecter Classes, Grouping and Capturing, Bracket expressions, Greedy and Lazy Match, Boundaries, Back-references, Flags and Look-ahead and Look-behind.
 
 ## Table of Contents
 
