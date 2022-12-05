@@ -10,8 +10,8 @@ To ensure that a user inputs an email address that starts with an arbitrary amou
 
 We will identify the Anchors, Quantifiers,The OR Operator, Charecter Classes, Grouping and Capturing, Bracket expressions, Greedy and Lazy Match, Boundaries, Back-references, Flags and Look-ahead and Look-behind.
 
-## Table of Contents
 
+## Table of Contents
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
 - [OR Operator](#or-operator)
