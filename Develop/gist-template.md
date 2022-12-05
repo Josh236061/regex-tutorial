@@ -53,11 +53,27 @@ The quantifiers * + {} are greedy operators, so they expand the match as far as 
 Lazy Match ? means to match the shortest possible string. By adding the ? after the * + {}, we tell it to repeat as few times as possible.
 
 ### Boundaries
+Boundaries\b represents an anchor matching positions where one side is a word character, and the other side is not a word character. It performs a "whole words only" search.
 
 ### Back-references
+Back-reference \1 refers to a previous part of the matched regular expression.
 
 ### Look-ahead and Look-behind
+If we want to find matches for a pattern that are followed or preceded by another pattern, it's called “lookahead” and “lookbehind”.
+
+Look-ahead X(?=Y) means "look for X, but match only if followed by Y".
+
+Look-behind (?<=Y)X means "look for X, but match only if preceded by Y".
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+I am an IT & DevOPs Engineer that works full-time, and am training as an up-and-coming
+Full-Stack Web Developer as a Part-Time Student with Rice University's Coding Bootcamp. Currently, 
+I hold 3 Masters across 2 industries (i.e. Business and CyberSecurity), a Bachelor's in Electrical 
+and Computer Engineering, and a variety of IT Certifications across 3 IT Vendor-Certifying 
+Organizations (i.e. CompTIA, ISACA, Microsoft). My goal as a Web Developer is to 'bridge the gap' 
+within my career interests as an aspiring Security & Cloud Engineer & Researcher upon receipt of my 
+Ph.D in IT. In my free time, I love to exercise, read, game, spend time with family & friends, 
+and play with my dogs.
+
+GitHub profile: https://github.com/Josh236061
